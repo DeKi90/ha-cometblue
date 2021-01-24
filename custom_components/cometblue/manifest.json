@@ -2,7 +2,9 @@
   "domain": "cometblue",
   "name": "cometblue",
   "documentation": "https://github.com/neffs/ha-cometblue",
-  "dependencies": [],
+  "dependencies": [
+    "cometblue-lite"
+  ],
   "codeowners": ["@neffs"],
   "requirements": ["cometblue_lite==0.3.2"]
 }
